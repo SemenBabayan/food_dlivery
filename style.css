@@ -1,9 +1,14 @@
+*{
+    margin: 0;
+    border: 0;
+    background: 0;
+    padding: 0;
+    box-sizing: 0;
+}
 body{
     background: #FE8B41
 }
 button{
-    border: none;
-    background: none;
     cursor: pointer;
 }
 .wrapper{
@@ -15,6 +20,7 @@ button{
     margin: auto;
     margin-top: 100px;
     padding: 48px 87px;
+    padding-right: 65px;
 }
 .logo_button{
     color: #000;
@@ -26,6 +32,7 @@ button{
 }
 .nav{
     display: inline-block;
+    margin-left: 352px;
 }
 .nav_elem{
     display: inline-block;
@@ -35,4 +42,25 @@ button{
     font-style: normal;
     font-weight: 400;
     line-height: 94.8%; /*20.856px */
+    cursor: pointer;
+    margin-left: 56px;
+}
+.nav_elem_btn{
+    font-weight: 400;
+    font-size: 22px;
+}
+.search_input{
+    width: 314px;
+    height: 60px;
+    padding-left: 41px;
+    padding-right: 35px;
+    border-radius: 30px;
+    background: rgba(255, 249, 240, 0.10);
+    box-shadow: 0px 12px 40px -16px rgba(0, 0, 0, 0.10);
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 94.8%;
+    margin-left: 160px;
 }
